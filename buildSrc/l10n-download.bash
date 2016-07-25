@@ -1,6 +1,6 @@
 #!/bin/bash -ex
 
-# Purpose: process new/changed l10n resources from Transifex
+# Purpose: process new/changed l10n resources from Transifex.
 
 function mergeToCurrentBranch() {
    local commentPrefix="${1}"
