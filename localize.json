@@ -1,0 +1,32 @@
+[
+  {
+    "langs": [
+      {"de_DE": ""},
+      {"es_ES": ""},
+      {"ko_KR": ""},
+      {"zh_CN": ""},
+      {"zh_TW": ""}
+    ],
+    "resources": [
+      ["drawing/l10n/*.json", "_", ""],
+      ["project/core/src/main/resources/com/belmonttech/util/l10n/*.properties", "_", ""],
+      ["project/translations/*.po", "-", "en"],
+      ["project/web/WEB-INF/templates/*.html", "_", ""]
+    ]
+  },
+  {
+    "proj_suffix": "_kingsschool",
+    "langs": [
+      {"de_DE": ""},
+      {"es_ES": ""},
+      {"fr_FR": ""},
+      {"ja_JP": ""},
+      {"ko_KR": ""},
+      {"zh_CN": ""},
+      {"zh_TW": ""}
+    ],
+    "resources": [
+      ["project/kingsschool/translations/*.po", "-", "en"]
+    ]
+  }
+]
