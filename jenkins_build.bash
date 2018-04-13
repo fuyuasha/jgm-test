@@ -1,5 +1,7 @@
 #!/bin/bash -ex
 
+#test
+
 # run tests unless --no-test is specified
 RUN_TESTS=1
 for i in "$@"; do
